@@ -12,6 +12,7 @@ args=parser.parse_args()
 if args.full:
     #create dir for the files nd such and change to it 
     os.system('mkdir miniProject_JJ_Colgan')
+    os.system("mv viral* miniProject_JJ_Colgan')
     os.chdir('miniProject_JJ_Colgan')
     os.system('touch miniProjectLog')
     wget = 'wget '
@@ -28,7 +29,8 @@ if args.full:
     os.system(fastqDump+ 'SRR5660044.1')
     os.system(fastqDump+ 'SRR5660045.1')
 if args.test:
-    os.system('mkdir miniProject_JJ_Colgan'):wq
+    os.system('mkdir miniProject_JJ_Colgan')
+    os.system("mv viral* miniProject_JJ_Colgan')
     os.system('mv PracticeSRR5660030.1_1.fastq SRR5660030.1_1.fastq')
     os.system('mv PracticeSRR5660030.1_2.fastq SRR5660030.1_2.fastq')
     os.system('mv PracticeSRR5660033.1_1.fastq SRR5660030.1_1.fastq')
