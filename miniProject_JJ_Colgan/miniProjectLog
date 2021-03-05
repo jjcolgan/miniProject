@@ -1,0 +1,37 @@
+The HCMV genome (EF999921) has 168 CDS.
+target_id	pval	qval	test_stat
+Human_106	0.000119366996916645	0.0117743792252173	14.802660239838
+Human_124	0.000141010529643321	0.0117743792252173	14.4885972985629
+Human_62	0.000309699915390487	0.0156723042578161	13.0107981200034
+Human_154	0.000375384533121343	0.0156723042578161	12.6509019412252
+Human_128	0.000588287073985585	0.0172288450585216	11.8126794857665
+Human_153	0.000707373148928451	0.0172288450585216	11.4697731437331
+Human_148	0.000722167158141625	0.0172288450585216	11.4313109158783
+Human_151	0.000840429830460879	0.0175439727108708	11.1497503413569
+Human_63	0.00123863946199482	0.0229836433503483	10.431800310115
+Human_97	0.00155811209229413	0.026020471941312	10.0085965859819
+Human_21	0.0032822111808672	0.0441894423099691	8.64355075634613
+Human_98	0.00341531156396943	0.0441894423099691	8.57115113055232
+Human_8	0.00374865305184082	0.0441894423099691	8.40172411294561
+Human_109	0.00385374179092301	0.0441894423099691	8.35147586286345
+Human_137	0.00396911158472776	0.0441894423099691	8.29789231795823
+Human_9	0.00475732763980697	0.0496546072404853	7.96945437683798
+Donor 1 (2dpi) had 2262365 read pairs before Bowtie2 filtering and 1314507 read pairs after.
+Donor 1 (6dpi) had 2007387 read pairs before Bowtie2 filtering and 1042617 read pairs after.
+Donor 2 (2dpi) had 2734180 read pairs before Bowtie2 filtering and 1766593 read pairs after.
+Donor 2 (2dpi) had 2734180 read pairs before Bowtie2 filtering and 1218328 read pairs after.
+spades -k 55,77,99,127 -t 2 --only-assembler -1 SRR5660030.1_mapped_.1.fq -2 SRR5660030.1_mapped_.2.fq -1 SRR5660033.1_mapped_.1.fq -2 SRR5660033.1_mapped_.2.fq -1 SRR5660045.1_mapped_.1.fq -2 SRR5660045.1_mapped_.2.fq -1 SRR5660044.1_mapped_.1.fq -2 SRR5660044.1_mapped_.2.fq -o assembly/
+There are 65 contigs > 1000 bp in the assemby.
+There are 132643 bp in the assembly.sacc	 pident	 length	 qstart	 qend	 sstart	 send	 bitscore	 evalue	 stitle
+There are 65 contigs > 1000 bp in the assemby.
+There are 132643 bp in the assembly.There are 65 contigs > 1000 bp in the assemby.
+There are 132643 bp in the assembly.sacc	 pident	 length	 qstart	 qend	 sstart	 send	 bitscore	 evalue	 stitle
+lcl|KF297339.1_cds_AGQ47277.1_52	100.000	6723	6746	6723	112416	0.0lcl|KF297339.1_cds_AGQ47277.1_52 [gene=UL48] [protein=large tegument protein] [protein_id=AGQ47277.1] [location=65055..71777] [gbkey=CDS]
+lcl|EF999921.1_cds_ABV71578.1_81	100.000	6723	6746	6723	112416	0.0lcl|EF999921.1_cds_ABV71578.1_81 [protein=UL48] [protein_id=ABV71578.1] [location=97096..103818] [gbkey=CDS]
+lcl|MT070140.1_cds_QPZ44992.1_52	100.000	6723	6746	6723	112416	0.0lcl|MT070140.1_cds_QPZ44992.1_52 [gene=UL48] [protein=large tegument protein] [protein_id=QPZ44992.1] [location=64826..71548] [gbkey=CDS]
+lcl|MT044484.1_cds_QIA46039.1_51	99.985	6723	6746	6723	112410	0.0lcl|MT044484.1_cds_QIA46039.1_51 [gene=UL48] [protein=large tegument protein] [protein_id=QIA46039.1] [location=64407..71129] [gbkey=CDS]
+lcl|KT726951.2_cds_AMJ54418.1_53	99.941	6723	6746	6723	112393	0.0lcl|KT726951.2_cds_AMJ54418.1_53 [gene=UL48] [protein=large tegument protein] [protein_id=AMJ54418.1] [location=64546..71268] [gbkey=CDS]
+lcl|KP745676.1_cds_AKI14795.1_51	99.851	6723	6746	6723	112360	0.0lcl|KP745676.1_cds_AKI14795.1_51 [gene=UL48] [protein=large tegument protein] [protein_id=AKI14795.1] [location=64538..71260] [gbkey=CDS]
+lcl|MT044477.1_cds_QIA44857.1_54	99.851	6723	6746	6723	112360	0.0lcl|MT044477.1_cds_QIA44857.1_54 [gene=UL48] [protein=large tegument protein] [protein_id=QIA44857.1] [location=64326..71048] [gbkey=CDS]
+lcl|KP745642.1_cds_AKI09111.1_52	99.836	6723	6746	6723	112355	0.0lcl|KP745642.1_cds_AKI09111.1_52 [gene=UL48] [protein=large tegument protein] [protein_id=AKI09111.1] [location=64379..71101] [gbkey=CDS]
+lcl|KP745665.1_cds_AKI12952.1_52	99.836	6723	6746	6723	112355	0.0lcl|KP745665.1_cds_AKI12952.1_52 [gene=UL48] [protein=large tegument protein] [protein_id=AKI12952.1] [location=64468..71190] [gbkey=CDS]
